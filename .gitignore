@@ -1,0 +1,46 @@
+# ===== Node / Frontend =====
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.local
+frontend/ss/
+
+# ===== Python / Backend =====
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/*.egg-info/
+
+# ===== Environment / Secrets =====
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# ===== Logs =====
+*.log
+npm-debug.log*
+pnpm-debug.log*
+backend/logs/
+backend/*.log
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# ===== Docker =====
+*.pid
+
+# ===== Database (if any local db files) =====
+*.sqlite3
+*.db
